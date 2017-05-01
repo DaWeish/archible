@@ -1,0 +1,9 @@
+---
+- name: Set the hostname
+  hostname:
+    name: {{ hostname }}
+
+- name: Install Network Manager
+  pacman:
+    name: networkmanager
+    state: present

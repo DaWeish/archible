@@ -1,0 +1,5 @@
+---
+- hosts: localhost
+  roles:
+    - { role: network, hostname; 'shallow_test' }
+  tasks:
